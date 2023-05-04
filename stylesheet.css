@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.wrapper{
+    min-width: 0px;
+    width: 100%;
+    background-color: rgb(248, 248, 81);
+}
+
+header .wrapper{
+    display: flex;
+}
+
+.wrapper .logo{
+    width: 30%; 
+    background-color: black;
+    padding:10px ;
+}
+
+.wrapper .logo h1{
+    text-align: center;
+    margin-top: 6px;
+    color: aliceblue;
+}
+
+.wrapper .nav nav ul{
+    display: flex;
+    float: right;
+}
+
+.wrapper .nav nav ul li{
+    list-style-type: none;
+    margin: 10% 30% 0% 30%;
+    padding: 4% 20% 3%;
+    float: right;
+}
+
+.wrapper .nav nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header .banner{
+    background: url(./image/banner.jpg) no-repeat center/cover ;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+header .banner .banner-text{
+    position: absolute;
+    color: aliceblue;
+    width: 60%;
+    top: 40%;
+}
+
+header .banner .banner-text h1{
+    width: 40%;
+    margin: 2px;
+    transition: 0.3s ease-out;
+}
+
+header .banner .banner-text p{
+    /* background-color: aqua; */
+    width: 60%;
+    margin: 3px;
+    transition: 0.3s ease-out;
+}
+
+header .banner .banner-text h1:hover{
+    background: pink;
+    width:40%;
+    cursor: pointer;
+    color: black;
+}
+
+header .banner .banner-text p:hover{
+    background: pink;
+    width:60%;
+    cursor:pointer;
+    color: black;
+}
+
+main .web-creator{
+    background-color: aqua;
+}
+
+section .creator{
+    min-width: 0px;
+    width: 100%;
+    text-align: center;
+    height: 20vh;
+}
+
+section .r-creator .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+section .r-creator .row .r-work{
+    text-align: center;
+    width: 40%;
+    margin:15px;
+    background-color: aliceblue;
+    border-bottom: 25px solid rgb(143, 143, 247);
+}
+
+section .r-creator .row .r-work img{
+    width: 100%;
+}
+
+section .r-creator .row .r-work p{
+    text-align: justify;
+}
